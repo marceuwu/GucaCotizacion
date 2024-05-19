@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #30779D;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #DAEBF3;
+}
+
+tr:nth-child(odd) {
+    background-color: #F4F5F9;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
+.header {
+    background: linear-gradient(to right, #0099ff, #000000);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.header-title {
+    margin-left: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+.header-cotizacion {
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.info2 > div {
+    margin-bottom: 20px;
+}
+.txt-terminos-condiciones h3{
+    font-size:13px;
+}
+.txt-terminos-condiciones p{
+    font-size:11px;
+    margin-bottom: 0;
+}
+.tabla2 {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Añade esta línea */
+}
+
+.tabla2 td {
+    width: 50%;
+    text-align: left;
+    padding: 8px; /* Opcional: para añadir un poco de relleno a las celdas */
+}
+
+.tabla2 tr:nth-child(odd) {
+    background-color: #DAEBF3;
+}
+
+.tabla2 tr:nth-child(even) {
+    background-color: #F4F5F9;
+}
+
+.tabla2 tr:last-child {
+    background-color: #30779D;
+    color: white;
+}
+  
