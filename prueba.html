@@ -1,27 +1,36 @@
-Para hacer que el texto parezca un pie de página, podemos reducir el tamaño de fuente y aplicar algunos estilos adicionales. Aquí está el código HTML con estilos CSS incrustados:
-<div class="footer-section">
-    <div class="text-center">
-        <h3><strong>TÉRMINOS Y CONDICIONES:</strong></h3>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; background-color: #f2f2f2; font-family: Arial, sans-serif; padding: 10px;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <span class="material-symbols-outlined">call</span>
+        <div>
+          <span style="font-weight: bold;">TELÉFONO:</span>
+          <span>442 457 5646 &nbsp; 442 862 4169</span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <span class="material-symbols-outlined">mail</span>
+        <div>
+          <span style="font-weight: bold;">CORREO:</span>
+          <span>ventas@gucadistribucion.com</span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <span class="material-symbols-outlined">home</span>
+        <div>
+          <span style="font-weight: bold;">PÁGINA WEB:</span>
+          <span>www.gucadistribucion.com</span>
+        </div>
+      </div>
     </div>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*PAGOS DE CONTADO</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*ENVÍO A DOMICILIO GRATIS SI EL MONTO ES MAYOR A $3500, SI ES MENOR SE COBRA CONFORME LA DISTANCIA.</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">**MATERIAL COTIZADO SALVO PREVIA VENTA</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*PRECIOS SUJETOS A EXISTENCIAS Y LISTAS ACTUALES</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*VIGENCIA DE 1 SEMANA</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*PRECIOS VÁLIDOS AL CONFIRMAR EL 100% DE LA COTIZACIÓN</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">Importe Total: ( PESO 00/100 M.N.)</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">TELÉFONO: 442 457 5646, 442 862 4169</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">CORREO: ventas@gucadistribucion.com</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">MÉTODOS DE PAGO:</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*PAGO CON TARJETA.</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*PAGO EN EFECTIVO.</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">*PAGO CON TRANSFERENCIA BANCARIA.</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">BANCO: BBVA BANCOMER</p>
-    <p style="font-size: 12px; line-height: 16px; margin-bottom: 4px;">CLABE INTERBANCARIA: 012010055310535 5</p>
-</div>
-<style>
-    .footer-section {
-        font-family: Arial, sans-serif;
-        color: #666666;
-    }
-</style>
+    <div>
+      <i class="bi bi-cash" style="margin-right: 10px; color: blue;"></i>
+      <span style="font-weight: bold;">MÉTODOS DE PAGO:</span>
+      <ul style="list-style-type: none; padding-left: 0; margin-top: 5px;">
+        <li><i class="bi bi-credit-card-fill" style="margin-right: 5px; color: blue;"></i>PAGO CON TARJETA.</li>
+        <li><i class="bi bi-cash" style="margin-right: 5px; color: blue;"></i>PAGO EN EFECTIVO.</li>
+        <li><i class="bi bi-bank" style="margin-right: 5px; color: blue;"></i>PAGO CON TRANSFERENCIA.</li>
+        <li>BANCO: BBVA BANCOMER</li>
+        <li>CLABE INTERBANCARIA: 012 680 00483610535 0</li>
+      </ul>
+    </div>
+  </div>

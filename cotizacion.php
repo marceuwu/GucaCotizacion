@@ -11,10 +11,11 @@
     <title>Cotización GUCA Distribución</title>
     <link rel='stylesheet' href='style.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header class="header">
-        <div class="row w-100">
+        <div class="container-row2 w-100">
             <div class="col-md-8 d-flex justify-content-start align-items-center">
                 <div class="header-logo">
                     <img src="./img/logo.png" alt="GUCA Distribución" width="100">
@@ -34,7 +35,7 @@
     </header>
     <br/>
     <div class="container">
-        <div class="row">
+        <div class="container-row">
             <div class="col-md-6">
               <div class="info">
                 <div><strong>YAEL GUERRERO ROJAS</strong> </div>
@@ -80,7 +81,7 @@
             </tbody>
             
         </table>
-        <div class="row">
+        <div class="container-row">
             <div class="col-md-9 al text-center txt-terminos-condiciones">
                 <h3><strong>TÉRMINOS Y CONDICIONES:</strong></h3>
                 <p>*PAGOS DE CONTADO</p>
@@ -107,17 +108,49 @@
                     </tr>
                 </table>
             </div>
-        </div>
+        </div>  
+        
     </div>
-    <p>TELÉFONO: 442 457 5646, 442 862 4169</p>
-    <p>CORREO: ventas@gucadistribucion.com</p>
-    <p>MÉTODOS DE PAGO:</p>
-    <p>*PAGO CON TARJETA.</p>
-    <p>*PAGO EN EFECTIVO.</p>
-    <p>*PAGO CON TRANSFERENCIA BANCARIA.</p>
-    <p>BANCO: BBVA BANCOMER</p>
-    <p>CLABE INTERBANCARIA: 012010055310535 5</p>
-
-    
+    <footer>
+        <br/>
+        <div class="container">
+            <div class="container-row">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="material-symbols-outlined">call</span>
+                        <div>
+                        <span style="font-weight: bold;">TELÉFONO:</span>
+                        <span>442 457 5646 &nbsp; 442 862 4169</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="material-symbols-outlined">mail</span>
+                        <div>
+                        <span style="font-weight: bold;">CORREO:</span>
+                        <span>ventas@gucadistribucion.com</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="material-symbols-outlined">home</span>
+                        <div>
+                        <span style="font-weight: bold;">PÁGINA WEB:</span>
+                        <span>www.gucadistribucion.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <i class="bi bi-cash" style="margin-right: 10px; color: blue;"></i>
+                <span style="font-weight: bold;">MÉTODOS DE PAGO:</span>
+                <ul class="metodosPago">
+                    <li><i class="bi bi-credit-card-fill" style="margin-right: 5px; color: blue;"></i>PAGO CON TARJETA.</li>
+                    <li><i class="bi bi-cash" style="margin-right: 5px; color: blue;"></i>PAGO EN EFECTIVO.</li>
+                    <li><i class="bi bi-bank" style="margin-right: 5px; color: blue;"></i>PAGO CON TRANSFERENCIA.</li>
+                    <li>BANCO: BBVA BANCOMER</li>
+                    <li>CLABE INTERBANCARIA: 012 680 00483610535 0</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </footer> 
 </body>
 </html>

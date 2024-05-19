@@ -81,4 +81,37 @@ tr:hover {
     background-color: #30779D;
     color: white;
 }
-  
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.container-row{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    font-family: Arial, sans-serif; padding: 20px;
+}
+
+.metodosPago{
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-top: 5px;
+}
+
+.container-row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alineación vertical centrada */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.col-md-8, .col-md-4 {
+    display: flex; /* Añadido para alinear elementos internos */
+    align-items: center; /* Alineación vertical centrada */
+}
