@@ -115,3 +115,9 @@ tr:hover {
     display: flex; /* Añadido para alinear elementos internos */
     align-items: center; /* Alineación vertical centrada */
 }
+
+@media print {
+    #printButton {
+        display: none;
+    }
+}

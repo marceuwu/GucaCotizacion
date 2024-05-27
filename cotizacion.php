@@ -53,7 +53,8 @@
               </div>
             </div>
         </div>
-        <a href="reportes.php">Reporte pdf</a>
+        <button id="printButton" class="btn btn-primary">Print</button>
+
         <table>
             <thead>
                 <tr>
@@ -152,5 +153,15 @@
             </div>
         </div>
     </footer> 
+    <script>
+        document.getElementById("printButton").addEventListener("click", function() {
+            var printButton = document.getElementById("printButton");
+            printButton.style.display = "none";
+            window.print();
+            printButton.style.display = "block";
+        });
+
+    </script>
+
 </body>
 </html>
